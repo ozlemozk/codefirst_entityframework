@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 namespace Contosouniversity.DATA
 {
+//dbfirst
     public class schoolDBContext : DbContext
     {
         public schoolDBContext() : base("name=schoolDBContext")
