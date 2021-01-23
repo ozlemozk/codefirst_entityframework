@@ -23,6 +23,7 @@ namespace Contosouniversity.DATA
             new Student{AD="Pelin",Soyad="Yılmaz",Tarih=DateTime.Parse("2001-09-01")},
             new Student{AD="Leyla",Soyad="Norman",Tarih=DateTime.Parse("2003-09-01")},
             new Student{AD="Nami",Soyad="Olta",Tarih=DateTime.Parse("2005-09-01")}
+            new Student{AD="Sila",Soyad="Olkan",Tarih=DateTime.Parse("2006-09-01")}
             };
 
                 students.ForEach(s => context.Students.Add(s));
